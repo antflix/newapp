@@ -1,0 +1,78 @@
+{
+    "display_override": [
+      "window-controls-overlay"
+    ],
+    "protocol_handlers": [
+      {
+        "protocol": "mailto",
+        "url": "/newEmail?to=%s"
+      }
+    ],
+    "shortcuts" : [
+      {
+        "name": "Material List Generator 3.1",
+        "url": "/",
+        "description": "Enter the quantity installed devices on your project and a material list will be generated."
+      },
+      {
+        "name": "Count Helper",
+        "url": "/count",
+        "description": "Make custom buttons that will increase by 1 everytime its clicked. Usefull for keeping track of materials needed while walking the job or reviewing your print."
+
+      },
+      {
+        "name": "To-Do list",
+        "url": "/todo",
+        "description": "Just a simple to-do list. You can add items to the list and check them off when they are complete."
+      }
+    
+    ],
+    "screenshots": [
+      {
+        "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+        "sizes": "2880x1800",
+        "type": "image/png",
+        "description": "PWABuilder Home Screen"
+      },
+      {
+        "src": "https://www.pwabuilder.com/assets/screenshots/screen2.png",
+        "sizes": "2880x1800",
+        "type": "image/png",
+        "description": "PWABuilder Report Card"
+      },
+      {
+        "src": "https://www.pwabuilder.com/assets/screenshots/screen3.png",
+        "sizes": "2880x1800",
+        "type": "image/png",
+        "description": "Manifest information on the Report Card"
+      }
+    ],
+    "orientation": "any",
+    "name": "Material List Generator 3.0",
+    "version": "1.0.0",
+    "short_name": "Material List Generator",
+    "description": "A Progressive Web App that autogenerates a material list based on user input.",
+    "icons": [
+      {
+        "src": "/static/images/MLM3000SMALL.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any"
+      },
+      {
+        "src": "/static/images/MLM3000.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any"
+      },
+      {
+        "src": "/static/images/MLM3000LARGE.png",
+        "type": "image/png",
+        "sizes": "1024x1024"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#202020",
+    "background_color": "#202020"
+  }
