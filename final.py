@@ -229,11 +229,11 @@ def todo() -> str:   # show the form, it wasn't submitted
 @app.route('/result')
 def result():
     # Open the Excel file to trigger the calculation of formulas
-    excel_app = win32.Dispatch("Excel.Application", pythoncom.CoInitialize())
-    wb = excel_app.Workbooks.Open(r'D:/Production/templates/workstemp.xlsx')
-    wb.Save()
-    wb.Close()
-    excel_app.Quit()
+#     excel_app = win32.Dispatch("Excel.Application", pythoncom.CoInitialize())
+#     wb = excel_app.Workbooks.Open(r'D:/Production/templates/workstemp.xlsx')
+#     wb.Save()
+#     wb.Close()
+#     excel_app.Quit()
 
     # Load the Excel file and read the calculated values
     wb = load_workbook("templates/workstemp.xlsx", data_only=True)
