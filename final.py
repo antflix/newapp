@@ -1,8 +1,6 @@
 import sys as sys
 from typing import Any
 import openpyxl
-import pythoncom
-import win32com.client as win32
 from flask import (Flask, Response, app, send_file, redirect, render_template,
                    request, url_for)
 from openpyxl import load_workbook
